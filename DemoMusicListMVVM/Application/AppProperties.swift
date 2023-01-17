@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct Domain {
+    static let URL_API:String = "https://itunes.apple.com/"
+}

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum EventResult<T> {
+    case success
+    case failure(T?)
+}
