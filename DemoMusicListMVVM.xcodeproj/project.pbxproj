@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		14A60561E85E5D9679ECF674 /* Pods_DemoMusicListMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4392745908BA891191529B6E /* Pods_DemoMusicListMVVM.framework */; };
+		DA2A909A2976327C00708AA0 /* ic_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2A90992976327B00708AA0 /* ic_pause.png */; };
 		DA316D79296FE77C002C0879 /* AppProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA316D78296FE77C002C0879 /* AppProperties.swift */; };
 		DA316D7B296FE8BC002C0879 /* Observerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA316D7A296FE8BC002C0879 /* Observerable.swift */; };
 		DA316D82296FEF02002C0879 /* ic_play.png in Resources */ = {isa = PBXBuildFile; fileRef = DA316D80296FEF02002C0879 /* ic_play.png */; };
@@ -55,6 +56,7 @@
 		0D4DAE0BAEB4224C939D2C5B /* Pods-DemoMusicListMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMusicListMVVM.debug.xcconfig"; path = "Target Support Files/Pods-DemoMusicListMVVM/Pods-DemoMusicListMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		2879310CB7833FD1EFDE11E8 /* Pods-DemoMusicListMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMusicListMVVM.release.xcconfig"; path = "Target Support Files/Pods-DemoMusicListMVVM/Pods-DemoMusicListMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		4392745908BA891191529B6E /* Pods_DemoMusicListMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoMusicListMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2A90992976327B00708AA0 /* ic_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_pause.png; sourceTree = "<group>"; };
 		DA316D78296FE77C002C0879 /* AppProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProperties.swift; sourceTree = "<group>"; };
 		DA316D7A296FE8BC002C0879 /* Observerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observerable.swift; sourceTree = "<group>"; };
 		DA316D80296FEF02002C0879 /* ic_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_play.png; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			children = (
 				DA316D80296FEF02002C0879 /* ic_play.png */,
 				DA316D81296FEF02002C0879 /* ic_stop.png */,
+				DA2A90992976327B00708AA0 /* ic_pause.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -326,7 +329,7 @@
 				};
 			};
 			buildConfigurationList = DA59D36A296FB2D5001BA443 /* Build configuration list for PBXProject "DemoMusicListMVVM" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -356,6 +359,7 @@
 				DA59D37A296FB2D5001BA443 /* Main.storyboard in Resources */,
 				DA316D83296FEF02002C0879 /* ic_stop.png in Resources */,
 				DA316D82296FEF02002C0879 /* ic_play.png in Resources */,
+				DA2A909A2976327C00708AA0 /* ic_pause.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

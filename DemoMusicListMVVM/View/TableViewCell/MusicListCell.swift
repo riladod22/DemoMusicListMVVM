@@ -71,7 +71,7 @@ class MusicListCell: UICollectionViewCell {
     }
     
     private func ivStatusSetImage(_ isPlaying: Bool){
-        let statusImage = UIImage.init(named: (isPlaying ? "ic_stop" : "ic_play"))
+        let statusImage = UIImage.init(named: (isPlaying ? "ic_pause" : "ic_play"))
         self.btnPlay.setBackgroundImage(statusImage, for: .normal)
     }
     
